@@ -1,0 +1,39 @@
+{
+  "name": "hexafalls",
+  "version": "1.0.0",
+  "description": "Hexafalls Hackathon",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayan1024/HexaFalls.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Ayan1024/HexaFalls/issues"
+  },
+  "homepage": "https://github.com/Ayan1024/HexaFalls#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "axios": "^1.10.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1",
+    "multer": "^2.0.1",
+    "node-fetch": "^2.7.0",
+    "pdf-parse": "^1.1.1",
+    "pdf-text-extract": "^1.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}

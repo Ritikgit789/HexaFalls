@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prevent horizontal scroll */
+html, body {
+  overflow-x: hidden;
+  background-color: #1f2937; /* gray-950 */
+}

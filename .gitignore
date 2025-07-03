@@ -1,0 +1,110 @@
+<<<<<<< Updated upstream
+backend/node/node_modules/@google/generative-ai/dist/types/search-grounding.d.ts
+/frontend/node_modules
+/mocklyenv
+=======
+# ----------------------
+# Node.js & Express
+# ----------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs/
+*.log
+log.txt
+
+# ----------------------
+# React frontend
+# ----------------------
+build/
+dist/
+.cache/
+.next/
+out/
+.svelte-kit/
+.vite/
+
+# local env dev server files
+*.local
+
+# ----------------------
+# Python / FastAPI / ML
+# ----------------------
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+.Python
+mocklyenv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# pip-tools
+*.pip
+pip-log.txt
+
+# ----------------------
+# MongoDB dumps
+# ----------------------
+dump/
+data/
+*.ns
+*.wt
+
+# ----------------------
+# Environment variables
+# ----------------------
+.env
+.env.*
+*.env
+
+# ----------------------
+# Uploaded audio / temp files
+# ----------------------
+temp_audio/
+**/temp_audio/
+
+# ----------------------
+# IDEs & OS generated files
+# ----------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# ----------------------
+# Code coverage / testing
+# ----------------------
+.coverage
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.lcov
+htmlcov/
+>>>>>>> Stashed changes
